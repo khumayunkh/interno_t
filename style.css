@@ -763,3 +763,134 @@
     justify-content: center;
     align-items: center;
 }
+
+.burger_menu{
+    display: none;
+}
+
+
+@media(max-width:1460px){
+    .body{
+        height: 800px;
+        border-bottom-left-radius: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .body_in{
+        width: 70%;
+    }
+    
+    .body_in h1{
+        width: 90%;
+        font-size: 70px;
+    }
+    
+    .body_in h4{
+        width: 65%;
+        font-size: 18px;  
+    }
+    
+    .btn_body{
+        height: 70px;
+        width: 30%;
+    }
+    
+    .btn_body a{
+        margin-left: 15%;
+    }
+    .btn_body h1{
+        color: rgb(172, 172, 6);
+        width: 15%;
+        margin-right: 15%;
+        font-weight: 100;
+    }
+}
+
+@media(max-width:1180px){
+    .menu{
+        width: 60%;
+    }
+    .body_in{
+        width: 90%;
+    }
+    
+    .body_in h1{
+        width: 90%;
+        font-size: 70px;
+    }
+    
+    .body_in h4{
+        width: 65%;
+        font-size: 18px;  
+    }
+    .btn_body a{
+        margin-left: 15%;
+    }
+    .btn_body h1{
+        color: rgb(172, 172, 6);
+        width: 15%;
+        margin-right: 15%;
+        font-weight: 100;
+    }
+}
+
+@media(max-width:950px){
+    .body_in h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .body_in h4{
+        font-size: 16px;
+        width: 70%;
+    }
+}
+
+@media(max-width:810px){
+    .menu{
+        width: 70%;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_in{
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .btn_body h1{
+        display: none;
+    }
+
+    .btn_body a{
+        margin-left: 0%;
+    }
+}
+
+@media(max-width:720px){
+    .menu{
+        display: none;
+    }
+
+    .burger_menu{
+        display: flex;
+        width: 10%;
+    }
+
+    .body_in{
+        width: 100%;
+    }
+
+    .body_in h1{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .body_in h4{
+        width: 95%;
+    }
+}
