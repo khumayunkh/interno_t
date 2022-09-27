@@ -878,7 +878,10 @@
         margin-right: 15%;
         font-weight: 100;
     }
-
+    .challenging_in{
+        display: flex;
+        align-items: center;
+    }
     .call_in{
         width: 80%;
     }
@@ -891,6 +894,17 @@
     .call_in h3{
         width: 85%;
         font-size: 14px;
+    }
+    .btn_call{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    .btn_call h1{
+        width: 10%;
+    }
+    .call{
+        display: none;
     }
 }
 
@@ -945,7 +959,20 @@
     .btn_body a{
         margin-left: 0%;
     }
+    .challenging_in{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .call_in{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
 
 @media(max-width:720px){
     .menu{
@@ -982,6 +1009,25 @@
         border: 2px solid #292F36;
         border-radius: 18px;
     }
+    .call_in h1{
+        width: 100%;
+        font-size: 30px;   
+    }
+    
+    .call_in h3{
+        width: 100%;
+        font-size: 14px;
+    }
+    .btn_call a{
+        font-size: 12px;
+    }
+    .btn_call h1{
+        display: none;
+    }
+    .challenging_in img{
+        height: 500px;
+        border-radius: 1px;
+    }
 }
 
 @media(max-width:560px){
@@ -997,6 +1043,13 @@
 
     .body_in h4{
         width: 95%;
+        font-size: 14px;
+    }
+    .call_in h1{
+        font-size: 26px;   
+    }
+    
+    .call_in h3{
         font-size: 14px;
     }
 }
