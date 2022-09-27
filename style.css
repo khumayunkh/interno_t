@@ -768,6 +768,21 @@
     display: none;
 }
 
+@media(max-width:1575px){
+    .call_in{
+        width: 80%;
+    }
+    
+    .call_in h1{
+        width: 80%;
+        font-size: 40px;   
+    }
+    
+    .call_in h3{
+        width: 85%;
+        font-size: 20px;
+    }
+}
 
 @media(max-width:1460px){
     .body{
@@ -805,6 +820,36 @@
         margin-right: 15%;
         font-weight: 100;
     }
+    .challenging_in img{
+        width: 80%;
+    }
+
+    .btn_call{
+        margin-top: 2%;
+        height: 70px;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(43, 46, 51);
+        color: white;
+        font-weight: 400;
+        border-radius: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .btn_call{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .call_btn{
+        width: 70%;
+    }
+    .btn_call h1{
+        color: rgb(172, 172, 6);
+        width: 5%;
+        font-weight: 800;
+    }
 }
 
 @media(max-width:1180px){
@@ -833,6 +878,20 @@
         margin-right: 15%;
         font-weight: 100;
     }
+
+    .call_in{
+        width: 80%;
+    }
+    
+    .call_in h1{
+        width: 80%;
+        font-size: 35px;   
+    }
+    
+    .call_in h3{
+        width: 85%;
+        font-size: 14px;
+    }
 }
 
 @media(max-width:950px){
@@ -844,6 +903,22 @@
         font-size: 16px;
         width: 70%;
     }
+    .design_in{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .interior{
+        width: 90%;
+    }
+
+    .btn_desing{
+        margin-top: -1%;
+    }
+    
 }
 
 @media(max-width:810px){
@@ -862,6 +937,7 @@
         align-items: flex-start;
         flex-direction: column;
     }
+
     .btn_body h1{
         display: none;
     }
@@ -892,5 +968,48 @@
 
     .body_in h4{
         width: 95%;
+    }
+
+    .btn_body{
+        height: 50px;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        font-weight: 400;
+        background: #292F36;
+        border: 2px solid #292F36;
+        border-radius: 18px;
+    }
+}
+
+@media(max-width:560px){
+    .body{
+        border-bottom-left-radius: 1px;
+        
+    }
+
+    .body_in h1{
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .body_in h4{
+        width: 95%;
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width:500px){
+    .body_in h1{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .body_in h4{
+        width: 95%;
+        font-size: 14px;
     }
 }
