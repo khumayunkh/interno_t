@@ -575,8 +575,11 @@
     margin-top: 5%;
     background-size: cover;
     background-image: url('./img/IMAGE\(6\).svg');
-    height: 296px;
-    width: 345px;
+    height: 60%;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -586,8 +589,11 @@
     margin-top: 5%;
     background-size: cover;
     background-image: url('./img/IMAGE\(7\).svg');
-    height: 296px;
-    width: 345px;
+    height: 60%;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -597,8 +603,11 @@
     margin-top: 5%;
     background-size: cover;
     background-image: url('./img/IMAGE\(8\).svg');
-    height: 296px;
-    width: 345px;
+    height: 60%;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -608,8 +617,11 @@
     margin-top: 5%;
     background-size: cover;
     background-image: url('./img/IMAGE\(9\).svg');
-    height: 296px;
-    width: 345px;
+    height: 60%;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -619,8 +631,11 @@
     margin-top: 5%;
     background-size: cover;
     background-image: url('./img/IMAGE\(10\).svg');
-    height: 296px;
-    width: 345px;
+    height: 60%;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -630,8 +645,11 @@
     margin-top: 5%;
     background-size: cover;
     background-image: url('./img/IMAGE\(11\).svg');
-    height: 296px;
-    width: 345px;
+    height: 60%;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -873,6 +891,9 @@
     .brands{
         display: none;
     }
+    .blogs_design{
+        width: 35%;
+    }
 }
 
 @media(max-width:1180px){
@@ -999,6 +1020,12 @@
         width: 100%;
         font-size: 18px;
     }
+    .blogs_design{
+        width: 45%;
+    }
+    .blogs_design h2{
+        font-size: 20px;
+    }
 }
 
 @media(max-width:810px){
@@ -1062,6 +1089,15 @@
     .info_in h3{
         line-height: 20px;
     }
+    .blogs_design_in{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .blogs_design{
+        width: 70%;
+    }
+
 }
 
 
@@ -1138,6 +1174,35 @@
     .project_in h4{
         font-size: 13px;
     }
+    .design_name_1{
+        height: 50%;
+    }
+    .design_name_2{
+        height: 50%;
+    }
+    .design_name_3{
+        height: 50%;
+    }
+    .design_name_4{
+        height: 50%;
+    }
+    .design_name_5{
+        height: 50%;
+    }
+    .design_name_6{
+        height: 50%;
+    }
+    .blogs_design h2{
+        height: 20%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .blogs_design h3{
+        height: 10%;
+        font-size: 14px;
+        line-height: 10px;
+    }
 }
 
 @media(max-width:560px){
@@ -1178,6 +1243,9 @@
     }
     .logo_in h2{
         font-size: 20px;
+    }
+    .blogs_design{
+        width: 90%;
     }
 }
 
