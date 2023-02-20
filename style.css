@@ -45,14 +45,14 @@ body {
     background-size:cover;
     background-repeat: no-repeat;
     height: 800px;
-    border-bottom-left-radius: 300px;
+    border-bottom-left-radius: 305px;
     display: flex;
     align-items: center;
 }
 
 .body_in{
     width: 60%;
-    color: rgb(43, 46, 51);
+    color: rgb(43, 46, 50);
 }
 
 .body_in h1{
@@ -61,7 +61,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 96px;
+    line-height: 97px;
     letter-spacing: 0.22px;
     color: #292F36;
 }
